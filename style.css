@@ -277,8 +277,8 @@ section {
 .slideshow-container {
   position: relative;
   width: 100%; /* Adjust to your desired size */
-  max-width: 400px; /* Example size */
-  height: 600px; /* Example size */
+  max-width: 600px; /* Example size */
+  height: 700px; /* Example size */
   margin: 0 auto; /* Center the slideshow */
   overflow: hidden;
   border-radius: 10px;
