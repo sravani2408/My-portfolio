@@ -273,6 +273,34 @@ section {
   margin-top: 2rem;
 }
 
+/* Slideshow Container */
+.slideshow-container {
+  position: relative;
+  width: 100%; /* Adjust to your desired size */
+  max-width: 400px; /* Example size */
+  height: 300px; /* Example size */
+  margin: 0 auto; /* Center the slideshow */
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Slideshow Images */
+.slideshow-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 1s ease-in-out;
+}
+
+/* Show the first image by default */
+.slideshow-image:first-child {
+  opacity: 1;
+}
+
 .about-details-container {
   justify-content: center;
   flex-direction: column;
