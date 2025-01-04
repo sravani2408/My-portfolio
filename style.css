@@ -273,6 +273,99 @@ section {
   margin-top: 2rem;
 }
 
+/* General Section Styling */
+#projects {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+#projects .title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#projects .section__text__p1 {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Project Container Styling */
+.project-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Individual Project Card Styling */
+.project-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+
+/* Project Title Styling */
+.project-title {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+  max-width: 80%;
+  text-align: left;
+}
+
+/* Button Styling */
+.btn {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.github-btn {
+  background-color: #24292e;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.github-btn:hover {
+  background-color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .project-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .project-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .github-btn {
+    align-self: flex-end;
+    margin-top: 10px;
+  }
+}
+
+
 /* Slideshow Container */
 .slideshow-container {
   position: relative;
