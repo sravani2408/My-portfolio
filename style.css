@@ -161,7 +161,7 @@ section {
 }
 
 /* PROFILE SECTION */
-/*
+
 #profile {
   display: flex;
   justify-content: center;
@@ -205,7 +205,7 @@ section {
   margin-top: 1rem;
   gap: 1rem;
 }
-*/
+
 /* ICONS */
 
 .icon {
@@ -1270,116 +1270,4 @@ footer {
 
 footer p {
   text-align: center;
-}
-
-
-
-
-
-
-
-.icon img {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
-  filter: grayscale(100%);
-  transition: transform 0.3s, filter 0.3s;
-}
-
-
-/* Circle Rotation Animation */
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/* Other Styles */
-#profile {
-  position: relative;
-  overflow: hidden; /* Ensure the icons don’t extend outside the section */
-  text-align: center;
-  padding: 50px 20px;
-  background-color: white
-}
-
-.section__pic-container img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 20px;
-}
-
-.section__text {
-  z-index: 1; /* Keep text above the background */
-}
-
-.section__text__p1,
-.section__text__p2 {
-  margin: 0;
-  font-size: 1rem;
-  color: #666;
-}
-
-.title {
-  font-size: 2rem;
-  color: #333;
-}
-
-.btn-container {
-  margin: 20px 0;
-}
-
-.btn {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.btn-color-1 {
-  background: #6c63ff;
-  color: white;
-}
-
-#socials-container {
-  margin-top: 20px;
-}
-
-#socials-container img {
-  width: 30px;
-  height: 30px;
-  margin: 0 10px;
-  cursor: pointer;
-}
-
-.circle-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  animation: rotate 15s linear infinite; /* Circle rotates */
-}
-
-/* Rotating Background */
-.rotating-background {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 600px; /* Adjust for your layout */
-  height: 600px;
-  z-index: -1; /* Place behind text */
-  pointer-events: none; /* Prevent interfering with clicks */
-}
-
-.icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform-origin: 0 0;
-  transform: rotate(calc(360deg / 10 * var(--i))) translate(250px);
 }
