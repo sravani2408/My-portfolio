@@ -419,7 +419,7 @@ section {
   flex-wrap: wrap; /* Wrap items to the next row for smaller screens */
   justify-content: space-evenly; /* Ensure equal spacing between cards */
   gap: 20px; /* Add space between cards */
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 /* Individual card styling */
