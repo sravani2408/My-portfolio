@@ -1327,7 +1327,7 @@ footer p {
   overflow: hidden; /* Ensure the icons don’t extend outside the section */
   text-align: center;
   padding: 50px 20px;
-  background: #fff;
+  background: #;
 }
 
 .section__pic-container img {
