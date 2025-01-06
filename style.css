@@ -179,7 +179,7 @@ section {
   width: 400px;
   height: 400px;
   animation: rotate 15s linear infinite; /* Smooth rotation */
-  z-index: 1; /* Below the profile picture */
+  /*z-index: 1; /* Below the profile picture */
 }
 
 .circle-container {
@@ -228,10 +228,11 @@ section {
   height: 150px;
   border-radius: 50%;
   overflow: hidden;
-  z-index: 2; /* Above rotating icons */
+  z-index: 10; /* Above rotating icons */
   border: 5px solid #6c63ff; /* Optional border styling */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+
 
 .section__pic-container img {
   width: 100%;
@@ -564,10 +565,10 @@ section {
 
 /* ICONS */
 
-.icon {
+/*.icon {
   cursor: pointer;
   height: 2rem;
-}
+}*/
 
 /* BUTTONS */
 
